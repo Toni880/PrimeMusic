@@ -51,23 +51,16 @@ This project is based on [Pyrogram](https://github.com/pyrogram) and [Py-Tgcalls
 <br>
     
 ### Tutorial Deploy on VPS
--  `sudo apt update && upgrade -y`
--  `sudo apt install git -y`
--  `sudo apt install python3`
--  `sudo apt install python3-pip`
--  `apt install python3-pip ffmpeg -y`
--  `pip3 install virtualenv`
--  `curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
--  `git clone https://github.com/Toni880/PrimeMusic`
--  `cd PrimeMusic`
--  `virtualenv -p /usr/bin/python3 venv`
--  `. ./venv/bin/activate`
--  `pip3 install -r requirements.txt`
--  `cp sample.env .env`
--  `nano .env`  
--  edit .env Anda dan isi VARS menggunakan `nano .env` `CTRL + S ` untuk menyimpan VARS Anda, gunakan `CTRL + X` untuk keluar dan kembali ke direktori PrimeMusic
--  Buka SCRREN di VPS Anda `screen -S PrimeMusic`
--  `bash start`
+```console
+root@PrimeMusic~ $ git clone https://github.com/Toni880/PrimeMusic
+root@PrimeMusic~ $ cd PrimeMusic
+root@PrimeMusic~ $ bash setup
+```
+> Setup will install each and every requirement, nodejs and pip packages automatically. After successfull installation of requirements , setup will ask you to input your vars.
+> Please input your vars correctly.
+```console
+root@PrimeMusic~ $ bash start
+```
 
 </details>
 
