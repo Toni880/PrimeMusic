@@ -53,51 +53,6 @@
         "value": "",
         "required": true
       },
-      "STRING_SESSION2": {
-        "description": "A Pyrogram String Session. Multi Assistant is Compulsory.",
-        "value": "",
-        "required": false
-      },
-      "STRING_SESSION3": {
-        "description": "A Pyrogram String Session. Multi Assistant is Compulsory.",
-        "value": "",
-        "required": false
-      },
-      "STRING_SESSION4": {
-        "description": "A Pyrogram String Session. Multi Assistant is Compulsory.",
-        "value": "",
-        "required": false
-      },
-      "STRING_SESSION5": {
-        "description": "A Pyrogram String Session. Multi Assistant is Compulsory.",
-        "value": "",
-        "required": false
-      },
-      "STRING_SESSION6": {
-        "description": "A Pyrogram String Session. Multi Assistant is Compulsory.",
-        "value": "",
-        "required": false
-      },
-      "STRING_SESSION7": {
-        "description": "A Pyrogram String Session. Multi Assistant is Compulsory.",
-        "value": "",
-        "required": false
-      },
-      "STRING_SESSION8": {
-        "description": "A Pyrogram String Session. Multi Assistant is Compulsory.",
-        "value": "",
-        "required": false
-      },
-      "STRING_SESSION9": {
-        "description": "A Pyrogram String Session. Multi Assistant is Compulsory.",
-        "value": "",
-        "required": false
-      },
-      "STRING_SESSION10": {
-        "description": "A Pyrogram String Session. Multi Assistant is Compulsory.",
-        "value": "",
-        "required": false
-      },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
         "value": "",
