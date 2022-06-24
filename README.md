@@ -52,6 +52,7 @@ This project is based on [Pyrogram](https://github.com/pyrogram) and [Py-Tgcalls
     
 ### Tutorial Deploy on VPS
 ```console
+root@PrimeMusic~ $ screen -S PrimeMusic
 root@PrimeMusic~ $ git clone https://github.com/Toni880/PrimeMusic
 root@PrimeMusic~ $ cd PrimeMusic
 root@PrimeMusic~ $ bash setup
